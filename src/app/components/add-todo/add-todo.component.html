@@ -1,0 +1,10 @@
+<form class="form" (ngSubmit)="onSubmit()">
+  <input name="title" 
+    [(ngModel)]="title" 
+    class="left_f"
+    placeholder="Type a to do" />
+  <input type="submit" 
+    value="Submit" 
+    class="btn right_f" />
+    <!-- {{title}} <== 2 ways binding -->
+</form>
