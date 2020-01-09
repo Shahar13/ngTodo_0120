@@ -1,12 +1,16 @@
-<div [ngClass]="setClasses()">
+<div [ngClass]="setClasses()" class="btl_tbl">
+  <div class="tbl_cell">
     <input (change)="onToggle(todo)" type="checkbox" />
-
+  </div>
+  <div class="tbl_cell">
     <span (click)="onToggle(todo)">
       {{ todo.title }}
     </span>
-    
+  </div>
+  <div class="tbl_cell">
     <button (click)="onDelete(todo)" class="btn_del" title="Delete this task">
       x
     </button>
+  </div>
 </div>
 

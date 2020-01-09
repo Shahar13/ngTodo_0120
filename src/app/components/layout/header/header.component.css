@@ -14,3 +14,9 @@
     color: #fff;
     text-decoration: none;
 }
+
+.simple_nav{
+    margin-top: 5px;
+    font-size: 14px; 
+    font-weight: normal;
+}

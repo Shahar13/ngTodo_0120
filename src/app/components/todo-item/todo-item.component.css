@@ -25,3 +25,22 @@
 .is_completed{
     text-decoration: line-through;
 }
+
+.tbl_tbl{
+    display: table;
+    width: 100%;
+}
+
+.tbl_cell{
+    display: table-cell;
+}
+
+.tbl_cell:nth-child(2){
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {    
+    .todo{
+        width: 90%;
+    }
+}
