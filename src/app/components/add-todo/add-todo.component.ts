@@ -27,5 +27,8 @@ export class AddTodoComponent implements OnInit {
     }
 
     this.addTodo.emit(todo);
+    
+    // clear current task
+    this.title = '';
   }
 }
